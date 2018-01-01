@@ -1,0 +1,5 @@
+.idea/
+parcel/.cache/
+webpack/node_modules/
+parcel/dist/
+webpack/dist/

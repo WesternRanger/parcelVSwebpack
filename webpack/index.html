@@ -5,6 +5,18 @@
 	<script>
 		!function(e){"use strict";var t=document.documentElement,i=Math.min(Math.floor(window.devicePixelRatio),3),n=1/i,a=document.querySelector('meta[name="viewport"]'),r="initial-scale="+n+",maximum-scale="+n+",minimum-scale="+n+",user-scalable=no,width=device-width,viewport-fit=cover";if(a)a.setAttribute("content",r);else{var o='<meta name="viewport" content="'+r+'"/>';document.write(o)}var c=function(){var e=t.clientWidth||screen.availWidth*i;e/i>450&&(e=450*i);var n=e/750*100;t.style.fontSize=n+"px",t.setAttribute("data-dpr",i)};c(),window.addEventListener("resize",c)}()
 	</script>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		#app {
+			background: #666;
+			height: 20rem;
+			width: 100%;
+		}
+
+	</style>
 	<!-- DNS 预处理-->
 	<link rel="dns-prefetch" href="//mc.meituan.net">
 	<link rel="dns-prefetch" href="//p0.meituan.net">
@@ -14,10 +26,8 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="format-detection" content="telephone=no, address=no">
 	<link rel="icon" href="//mc.meituan.net/touch/img/icon/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="/dist/7054a0e5af5c3471232b4af297f55557.css">
 </head>
 <body>
 	<div id="app">hello world</div>
-	<script src="/dist/parcel.js"></script>
 </body>
 </html>

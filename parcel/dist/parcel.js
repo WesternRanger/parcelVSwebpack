@@ -69,7 +69,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({5:[function(require,module,exports) {
+})({7:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -100,7 +100,7 @@ function getBaseURL(url) {
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 
-},{}],6:[function(require,module,exports) {
+},{}],5:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundles(bundles) {
@@ -194,7 +194,7 @@ LazyPromise.prototype.catch = function (onError) {
   return this.promise || (this.promise = new Promise(this.executor).catch(onError));
 };
 
-},{"./bundle-url":5}],2:[function(require,module,exports) {
+},{"./bundle-url":7}],3:[function(require,module,exports) {
 const elBody = document.querySelector('body');
 let textStartX = 0;
 let textStartY = 0;
@@ -217,7 +217,7 @@ elBody.addEventListener("touchmove", function (e) {
     });
   }
 }, false);
-},{"_bundle_loader":6,"./codeSplit.js":["38e65bb81dbf7ef0cf144fc30ed06743.js",7]}],0:[function(require,module,exports) {
+},{"_bundle_loader":5,"./codeSplit.js":["95cc732ed21671a765756e45245446c9.js",6]}],0:[function(require,module,exports) {
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
 function Module() {
@@ -235,7 +235,7 @@ function Module() {
 module.bundle.Module = Module;
 
 if (!module.bundle.parent && typeof WebSocket !== 'undefined') {
-  var ws = new WebSocket('ws://' + window.location.hostname + ':50897/');
+  var ws = new WebSocket('ws://' + window.location.hostname + ':49716/');
   ws.onmessage = function(event) {
     var data = JSON.parse(event.data);
 
@@ -336,4 +336,4 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id)
   });
 }
-},{}]},{},[0,2])
+},{}]},{},[0,3])
