@@ -5,5 +5,8 @@
   "scripts": {
     "dev": "parcel index.html"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.4.1"
+  }
 }

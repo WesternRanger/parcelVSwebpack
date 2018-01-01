@@ -1,5 +1,6 @@
 .idea/
 parcel/.cache/
 webpack/node_modules/
+parcel/node_modules/
 parcel/dist/
 webpack/dist/
