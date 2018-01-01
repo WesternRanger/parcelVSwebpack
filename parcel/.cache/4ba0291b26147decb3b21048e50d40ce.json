@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nexports.default = function () {\n  console.log('this is code Split');\n};"},"hash":"66de6d56cd5540a8350f59242cde8796"}
