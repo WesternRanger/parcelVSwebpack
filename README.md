@@ -10,6 +10,7 @@ parcel：http://www.css88.com/doc/parcel/getting_started.html
 - Parcel 内置了一个开发服务器
 - 可以自动把css、js资源与html文档关联
 - Parcel 支持零配置代码拆分，开箱即用
+- 更友好的日志信息
 
 **存在的意义**
 >配置简单，上手迅速，快速搭建项目，极大减轻项目搭建初期的工作

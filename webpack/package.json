@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack-dev-server --hot --inline"
+    "dev": "webpack-dev-server"
   },
   "devDependencies": {
     "html-webpack-plugin": "^2.30.1",
