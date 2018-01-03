@@ -1,4 +1,4 @@
-###将慵懒发挥到极致的打包工具Parcel
+### 将慵懒发挥到极致的打包工具Parcel
 
 **文档**
 webpack：https://webpack.js.org/
